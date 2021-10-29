@@ -9,4 +9,4 @@ jobs:
         id: pnp
         uses: medegor44/publish-nuget@v1
         with:
-          PROJECTS_DIR: ''
+          PROJECTS_DIR: 'src'

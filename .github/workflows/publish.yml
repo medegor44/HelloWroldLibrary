@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    name: A job to publish package
+    steps:
+      - name: Pack and publish
+        id: pnp
+        uses: medegor44/publish-nuget@v1
+        with:
+          PROJECTS_DIR: ''

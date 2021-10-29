@@ -10,4 +10,4 @@ jobs:
         id: pnp
         uses: rohith/publish-nuget@v2
         with:
-          PROJECT_FILE_PATH: 'src'
+          PROJECT_FILE_PATH: 'src/HelloWroldLibrary.csproj'

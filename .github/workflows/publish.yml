@@ -5,8 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to publish package
     steps:
+      - uses: actions/checkout@v2
       - name: Pack and publish
         id: pnp
         uses: medegor44/publish-nuget@v1
         with:
-          PROJECTS_DIR: '/src'
+          PROJECTS_DIR: 'src'

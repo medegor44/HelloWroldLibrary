@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>HelloWorldLibrary</PackageId>
+    <Version>1.0.0</Version>
+    <PackageTags>HelloWorld;C#</PackageTags>
+    <Description>
+        This is the test project for github actions publishing
+    </Description>
+  </PropertyGroup>
+
+</Project>

@@ -8,6 +8,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Pack and publish
         id: pnp
-        uses: rohith/publish-nuget@v2
+        uses: medegor44/publish-nuget@v2
         with:
-          PROJECT_FILE_PATH: 'src/HelloWroldLibrary.csproj'
+          PROJECTS_DIR: 'src'

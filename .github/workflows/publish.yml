@@ -10,5 +10,5 @@ jobs:
         id: pnp
         uses: rohith/publish-nuget@v2
         with:
-          PROJECT_FILE_PATH: src/HelloWorldLibrary/HelloWorldLibrary.csproj
+          PROJECT_FILE_PATH: src/HelloWorldLibrary/HelloWroldLibrary.csproj
           PACKAGE_NAME: HelloWorldLibrary

@@ -8,6 +8,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Pack and publish
         id: pnp
-        uses: medegor44/publish-nuget@v1
+        uses: rohith/publish-nuget@v2
         with:
-          PROJECTS_DIR: 'src'
+          PROJECT_FILE_PATH: src/HelloWorldLibrary/HelloWorldLibrary.csproj
+          PACKAGE_NAME: HelloWorldLibrary
